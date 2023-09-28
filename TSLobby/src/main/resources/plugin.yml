@@ -1,0 +1,27 @@
+main: ts.lobby.TSLobby
+version: 1.0.0
+name: TSLobby
+author: Storbo
+api-version: 1.13
+
+commands:
+  ayuda:
+    description: Shows the help menu
+  help:
+    description: Shows the help menu
+  rangos:
+    description: Open the ranges menu
+  reglas:
+    description: Open the rules menu
+  rules:
+    description: Open the rules menu
+  servers:
+    description: Open the servers menu
+  survival:
+    description: Teleport to the survival server
+  telejuegos:
+    description: Teleport to the games server
+  usm:
+    description: Teleport to the usm server
+  vip:
+    description: Open the vip menu
