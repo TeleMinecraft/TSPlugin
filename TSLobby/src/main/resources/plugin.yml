@@ -1,27 +1,39 @@
-main: ts.lobby.TSLobby
+main: ts.plugin.TSPlugin
 version: 1.0.0
-name: TSLobby
+name: TSPlugin
 author: Storbo
 api-version: 1.13
 
 commands:
   ayuda:
-    description: Shows the help menu
+    description: Shows the help gui
+  dinero:
+    description: Open the money info
   help:
-    description: Shows the help menu
+    description: Shows the help gui
+  lobby:
+    description: Teleport to the lobby server
   rangos:
-    description: Open the ranges menu
+    description: Open the ranks gui
+  ranks:
+    description: Open the ranks gui
   reglas:
-    description: Open the rules menu
+    description: Open the rules info
   rules:
-    description: Open the rules menu
+    description: Open the rules info
   servers:
     description: Open the servers menu
+  shops:
+    description: Open the shops info
+  stats:
+    description: Open the stats info
   survival:
     description: Teleport to the survival server
   telejuegos:
     description: Teleport to the games server
+  tiendas:
+    description: Open the shops info
   usm:
     description: Teleport to the usm server
   vip:
-    description: Open the vip menu
+    description: Open the vip info

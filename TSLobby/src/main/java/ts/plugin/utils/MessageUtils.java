@@ -1,4 +1,4 @@
-package ts.lobby.utils;
+package ts.plugin.utils;
 
 import org.bukkit.ChatColor;
 
