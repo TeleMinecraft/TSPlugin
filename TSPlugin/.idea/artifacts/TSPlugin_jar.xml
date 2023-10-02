@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="TSPlugin:jar">
-    <output-path>$PROJECT_DIR$/../TSPlugin</output-path>
-    <root id="archive" name="TSLobby.jar">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="TSPlugin.jar">
       <element id="module-output" name="TSPlugin" />
     </root>
   </artifact>
