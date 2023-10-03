@@ -5,34 +5,34 @@ author: Storbo
 api-version: 1.13
 
 commands:
-  ayuda:
-    description: Shows the help gui
   dinero:
     description: Open the money info
   help:
     description: Shows the help gui
+    aliases:
+      - ayuda
   lobby:
     description: Teleport to the lobby server
-  rangos:
-    description: Open the ranks gui
   ranks:
     description: Open the ranks gui
-  reglas:
-    description: Open the rules info
+    aliases:
+      - rangos
   rules:
     description: Open the rules info
+    aliases:
+      - reglas
   servers:
     description: Open the servers menu
   shops:
     description: Open the shops info
+    aliases:
+      - tiendas
   stats:
     description: Open the stats info
   survival:
     description: Teleport to the survival server
   telejuegos:
     description: Teleport to the games server
-  tiendas:
-    description: Open the shops info
   usm:
     description: Teleport to the usm server
   vip:

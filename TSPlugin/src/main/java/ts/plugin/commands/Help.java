@@ -15,6 +15,7 @@ public class Help implements CommandExecutor {
 
         if (!(sender instanceof Player)) {
             sender.sendMessage(MessageUtils.getColoredMessage(TSPlugin.prefix + "&cYou must be a player to execute this command!"));
+            return true;
         }
         return true;
     }

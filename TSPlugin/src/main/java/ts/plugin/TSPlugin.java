@@ -10,7 +10,7 @@ import java.util.Objects;
 
 public class TSPlugin extends JavaPlugin {
 
-    public static final String prefix = ChatColor.translateAlternateColorCodes('&', "&7[&bTSLobby&7] &r");
+    public static final String prefix = ChatColor.translateAlternateColorCodes('&', "&7[&3Tele&bServer&7] &r");
     public final String version = getDescription().getVersion();
 
     public void onEnable() {
@@ -23,20 +23,16 @@ public class TSPlugin extends JavaPlugin {
     }
 
     public void registerCommands() {
-        Objects.requireNonNull(this.getCommand("ayuda")).setExecutor(new Ayuda());
         Objects.requireNonNull(this.getCommand("dinero")).setExecutor(new Dinero());
         Objects.requireNonNull(this.getCommand("help")).setExecutor(new Help());
         Objects.requireNonNull(this.getCommand("lobby")).setExecutor(new Lobby());
-        Objects.requireNonNull(this.getCommand("rangos")).setExecutor(new Rangos());
         Objects.requireNonNull(this.getCommand("ranks")).setExecutor(new Ranks());
-        Objects.requireNonNull(this.getCommand("reglas")).setExecutor(new Reglas());
         Objects.requireNonNull(this.getCommand("rules")).setExecutor(new Rules());
         Objects.requireNonNull(this.getCommand("servers")).setExecutor(new Servers());
         Objects.requireNonNull(this.getCommand("shops")).setExecutor(new Shops());
         Objects.requireNonNull(this.getCommand("stats")).setExecutor(new Stats());
         Objects.requireNonNull(this.getCommand("survival")).setExecutor(new Survival());
         Objects.requireNonNull(this.getCommand("telejuegos")).setExecutor(new Telejuegos());
-        Objects.requireNonNull(this.getCommand("tiendas")).setExecutor(new Tiendas());
         Objects.requireNonNull(this.getCommand("usm")).setExecutor(new Usm());
         Objects.requireNonNull(this.getCommand("vip")).setExecutor(new Vip());
     }
