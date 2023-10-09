@@ -1,5 +1,5 @@
 main: ts.plugin.TSPlugin
-version: 1.0.0
+version: 1.2.0
 name: TSPlugin
 author: Storbo
 api-version: 1.13
@@ -7,12 +7,14 @@ api-version: 1.13
 commands:
   dinero:
     description: Open the money info
+    permission: tsplugin.dinero
   help:
     description: Shows the help gui
     aliases:
       - ayuda
   lobby:
     description: Teleport to the lobby server
+    permission: tsplugin.lobby
   ranks:
     description: Open the ranks gui
     aliases:
@@ -25,15 +27,19 @@ commands:
     description: Open the servers menu
   shops:
     description: Open the shops info
+    permission: tsplugin.shops
     aliases:
       - tiendas
   stats:
     description: Open the stats info
+    permission: tsplugin.stats
   survival:
     description: Teleport to the survival server
   telejuegos:
     description: Teleport to the games server
+    permission: tsplugin.telejuegos
   usm:
     description: Teleport to the usm server
+    permission: tsplugin.usm
   vip:
     description: Open the vip info

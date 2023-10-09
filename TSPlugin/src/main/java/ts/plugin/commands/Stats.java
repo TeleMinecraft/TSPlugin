@@ -16,6 +16,9 @@ public class Stats implements CommandExecutor {
             sender.sendMessage(MessageUtils.getColoredMessage(TSPlugin.prefix + "&cYou must be a player to execute this command!"));
             return true;
         }
+        if (!sender.hasPermission("ts.stats")) {
+            sender.sendMessage(MessageUtils.getColoredMessage(TSPlugin.prefix + "&cNo puedes usar este comando aquí!"));
+        }
         return true;
     }
 }
