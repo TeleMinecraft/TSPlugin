@@ -35,6 +35,7 @@ commands:
     permission: tsplugin.stats
   survival:
     description: Teleport to the survival server
+    permission: tsplugin.survival
   telejuegos:
     description: Teleport to the games server
     permission: tsplugin.telejuegos
