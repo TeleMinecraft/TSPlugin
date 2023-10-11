@@ -13,7 +13,7 @@ public class Vip implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage(MessageUtils.getColoredMessage(TSPlugin.prefix + "&cYou must be a player to execute this command!"));
+            sender.sendMessage(MessageUtils.getColoredMsg(TSPlugin.prefix + "&cYou must be a player to execute this command!"));
             return true;
         }
         return true;

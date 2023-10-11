@@ -13,11 +13,11 @@ public class Shops implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage(MessageUtils.getColoredMessage(TSPlugin.prefix + "&cYou must be a player to execute this command!"));
+            sender.sendMessage(MessageUtils.getColoredMsg(TSPlugin.prefix + "&cYou must be a player to execute this command!"));
             return true;
         }
         if (!sender.hasPermission("ts.shops")) {
-            sender.sendMessage(MessageUtils.getColoredMessage(TSPlugin.prefix + "&cNo puedes usar este comando aquí!"));
+            sender.sendMessage(MessageUtils.getColoredMsg(TSPlugin.prefix + "&cNo puedes usar este comando aquí!"));
         }
         return true;
     }

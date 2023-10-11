@@ -15,11 +15,11 @@ public class TSPlugin extends JavaPlugin {
 
     public void onEnable() {
         registerCommands();
-        Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(prefix + "&aHas been enabled! &7Version: &b" + version));
+        Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMsg(prefix + "&aHas been enabled! &7Version: &b" + version));
     }
 
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(prefix + "&cHas been disabled! &7Version: &b" + version));
+        Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMsg(prefix + "&cHas been disabled! &7Version: &b" + version));
     }
 
     public void registerCommands() {
