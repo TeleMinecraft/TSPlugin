@@ -1,5 +1,5 @@
 main: ts.plugin.TSPlugin
-version: 1.2.0
+version: 1.3.0
 name: TSPlugin
 author: Storbo
 api-version: 1.13
@@ -8,10 +8,15 @@ commands:
   dinero:
     description: Open the money info
     permission: tsplugin.dinero
+  discord:
+    description: Open the discord link
   help:
     description: Shows the help gui
     aliases:
       - ayuda
+      - ?
+  instagram:
+    description: Open the instagram link
   lobby:
     description: Teleport to the lobby server
     permission: tsplugin.lobby

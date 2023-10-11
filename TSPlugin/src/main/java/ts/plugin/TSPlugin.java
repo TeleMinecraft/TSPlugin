@@ -24,7 +24,9 @@ public class TSPlugin extends JavaPlugin {
 
     public void registerCommands() {
         Objects.requireNonNull(this.getCommand("dinero")).setExecutor(new Dinero());
+        Objects.requireNonNull(this.getCommand("discord")).setExecutor(new Discord());
         Objects.requireNonNull(this.getCommand("help")).setExecutor(new Help());
+        Objects.requireNonNull(this.getCommand("instagram")).setExecutor(new Instagram());
         Objects.requireNonNull(this.getCommand("lobby")).setExecutor(new Lobby());
         Objects.requireNonNull(this.getCommand("ranks")).setExecutor(new Ranks());
         Objects.requireNonNull(this.getCommand("rules")).setExecutor(new Rules());
